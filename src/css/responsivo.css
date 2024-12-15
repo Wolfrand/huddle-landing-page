@@ -1,0 +1,91 @@
+@media(max-width: 1012px){
+    body{
+        background: url(../images/bg-mobile.svg) top center no-repeat;
+        background-size: contain;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .header{
+        margin: 70px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    main .presentation{
+        margin: 100px 0px 0px;
+        text-align: center;
+    }
+
+    main .presentation p{
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    main .presentation .btn{
+        margin: 50px auto;
+        width: 300px;
+    }
+
+    .footer .social{
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .footer .social a i{
+        padding: 8.5px 0px 0px 9px;
+    }
+}
+
+@media (max-width:695px){
+    main .presentation-img{
+        max-width: 500px;
+    }
+
+    main .presentation h2{
+        font-size: 35px;
+    }
+
+    main .presentation p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 590px){
+    .header{
+        margin: 40px 0px 30px 25px;
+    }
+    
+    .header .logo img{
+        max-width: 180px;
+    }
+
+    main .presentation-img{
+        max-width: 330px;
+        margin-top: 20px;
+    }
+
+    main .presentation{
+        max-width: 330px;
+        margin-top: 60px;
+    }
+
+    main .presentation h2{
+        font-size: 25px;
+    }
+
+    main .presentation p{
+        font-size: 18px;
+    }
+
+    main .presentation .btn{
+        width: 200px;
+    }
+
+    .footer .social{
+        height: 80px;
+    }
+}
