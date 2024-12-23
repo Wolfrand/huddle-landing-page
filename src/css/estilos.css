@@ -3,9 +3,17 @@ body{
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header{
+    width: 100%;
+}
+
+.header .logo img{
     margin: 40px;
 }
 
@@ -58,9 +66,14 @@ main .presentation .btn:hover{
     color: #FFFFFF;
 }
 
-.footer .social{
+.footer{
     display: flex;
     justify-content: flex-end;
+    width: 100%;
+}
+
+.footer .social ul{
+    display: flex;
     gap: 15px;
     margin: 100px 40px 0px 0px;
 }
